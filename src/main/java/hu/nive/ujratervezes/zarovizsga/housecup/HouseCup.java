@@ -35,7 +35,7 @@ public class HouseCup {
         List<String> result = new ArrayList<>();
         try (ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {
-                result.add(rs.getString(1).toLowerCase());
+                result.add(rs.getString(1));
             }
         }
         return result;
