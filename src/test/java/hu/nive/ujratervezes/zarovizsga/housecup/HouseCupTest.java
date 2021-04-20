@@ -40,6 +40,8 @@ class HouseCupTest {
     @Test
     void test_get_points_of_house_one() throws SQLException {
         assertEquals(5, houseCup.getPointsOfHouse("Slytherin"));
+        //houseCup.createRow("Jakab","Dani",55);
+        //System.out.println(houseCup.listNames());
     }
 
 
